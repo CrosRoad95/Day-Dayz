@@ -1,0 +1,87 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+	<script src="s.lua" type="server"></script>
+	<script src="c.lua" type="client" cache="false"></script>
+	
+	<file src="html/index.html"></file>
+	<file src="html/css/styl.css"></file>
+	<file src="html/css/jquery-ui.css"></file>
+	<file src="html/css/bootstrap.min.css"></file>
+	<file src="html/css/bootstrap-select.min.css"></file>
+	<file src="html/css/bootstrap-select.css.map"></file>
+	<file src="html/css/bootstrap-select.css"></file>
+
+	
+	<file src="html/js/skrypt.js"></file>
+	<file src="html/js/jquery-1.10.2.js"></file>
+	<file src="html/js/jquery-ui.js"></file>
+	<file src="html/js/bootstrap.min.js"></file>
+	<file src="html/js/bootstrap-select.min.js"></file>
+	<file src="html/js/bootstrap-select.js.map"></file>
+	<file src="html/js/bootstrap-select.js"></file>
+	
+	<file src="html/img/logo.png"></file>
+	<file src="html/img/1.png"></file>
+	<file src="html/img/2.png"></file>
+	<file src="html/img/3.png"></file>
+	<file src="html/img/4.png"></file>
+	<file src="html/img/5.png"></file>
+	<file src="html/img/6.png"></file>
+	<file src="html/img/7.png"></file>
+	<file src="html/img/8.png"></file>
+	<file src="html/img/9.png"></file>
+	<file src="html/img/10.png"></file>
+	<file src="html/img/11.png"></file>
+	<file src="html/img/12.png"></file>
+	<file src="html/img/13.png"></file>
+	<file src="html/img/14.png"></file>
+	<file src="html/img/15.png"></file>
+	<file src="html/img/16.png"></file>
+	<file src="html/img/17.png"></file>
+	<file src="html/img/18.png"></file>
+	<file src="html/img/19.png"></file>
+	<file src="html/img/20.png"></file>
+	<file src="html/img/21.png"></file>
+	<file src="html/img/22.png"></file>
+	<file src="html/img/23.png"></file>
+	<file src="html/img/24.png"></file>
+	<file src="html/img/25.png"></file>
+	<file src="html/img/26.png"></file>
+	<file src="html/img/27.png"></file>
+	<file src="html/img/28.png"></file>
+	<file src="html/img/29.png"></file>
+	<file src="html/img/30.png"></file>
+	<file src="html/img/31.png"></file>
+	<file src="html/img/32.png"></file>
+	<file src="html/img/33.png"></file>
+	<file src="html/img/34.png"></file>
+	<file src="html/img/35.png"></file>
+	<file src="html/img/36.png"></file>
+	<file src="html/img/37.png"></file>
+	<file src="html/img/38.png"></file>
+	<file src="html/img/39.png"></file>
+	<file src="html/img/40.png"></file>
+	<file src="html/img/41.png"></file>
+	<file src="html/img/42.png"></file>
+	<file src="html/img/43.png"></file>
+	<file src="html/img/44.png"></file>
+	<file src="html/img/45.png"></file>
+	<file src="html/img/46.png"></file>
+	<file src="html/img/47.png"></file>
+	<file src="html/img/48.png"></file>
+	<file src="html/img/49.png"></file>
+	<file src="html/img/50.png"></file>
+	<file src="html/img/51.png"></file>
+	<file src="html/img/52.png"></file>
+	<file src="html/img/53.png"></file>
+	<file src="html/img/54.png"></file>
+	<file src="html/img/55.png"></file>
+	<file src="html/img/56.png"></file>
+	<file src="html/img/57.png"></file>
+	<file src="html/img/58.png"></file>
+	<file src="html/img/59.png"></file>
+	<file src="html/img/60.png"></file>
+	<file src="html/img/61.png"></file>
+	<file src="html/img/62.png"></file>
+	<file src="html/img/63.png"></file>
+</meta>

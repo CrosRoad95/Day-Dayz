@@ -1,0 +1,21 @@
+<meta>
+		<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+	<script src="s.lua" type="server"></script>
+	<script src="c.lua" type="client" cache="false"></script>
+    <file src="ikony/bandit.png" />
+    <file src="ikony/blood.png" />
+    <file src="ikony/brokenbone.png" />
+    <file src="ikony/eye.png" />
+    <file src="ikony/food.png" />
+    <file src="ikony/sound.png" />
+    <file src="ikony/temperature.png" />
+    <file src="ikony/thirsty.png" />
+    <file src="ikony/medic.png" />
+    <file src="ikony/level_2.png" />
+    <file src="ikony/level_3.png" />
+    <file src="ikony/level_4.png" />
+    <file src="ikony/level_5.png" />
+	<file src="ikony/debugtlo.png" />
+	<file src="ikony/kondycja.png" />
+	
+</meta>

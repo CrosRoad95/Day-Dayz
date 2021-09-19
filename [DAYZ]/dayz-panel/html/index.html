@@ -1,0 +1,463 @@
+﻿<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+
+<link rel="stylesheet" href="css/jquery-ui.css">
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-select.js"></script>
+  <script src="js/skrypt.js"></script>
+<link rel="stylesheet" href="css/styl.css">
+  <script>
+  </script>
+</head>
+<body>
+<div id="tabs1">
+	<ul>
+		<li><a href="#tab1">Start</a></li>
+		<li><a href="#tab2">Regulamin</a></li>
+		<li><a href="#tab3">Ranking</a></li>
+		<li><a href="#tab4">Changelog</a></li>
+		<li><a href="#tab5">Poradnik</a></li>
+		<li><a href="#tab6">Moje konto</a></li>
+		<li><a href="#tab7">Ustawienia</a></li>
+		<li><a href="#tab8">Sklep</a></li>
+		
+	</ul>
+	<div id="tab8">
+		<center><h1>Wybierz metodę płatności</h1></center>
+		<div id="tabs4">
+		<ul>
+			<li><a href="#tab1__">SMS Premium</a></li>
+			<li><a href="#tab2__">PaySafeCard</a></li>
+			<li><a href="#tab3__">PayPal</a></li>
+		</ul>
+
+		<div id="tab1__">
+			<center><select id="sms" class="selectpicker" data-size="5" title="Wybierz kwotę ...">
+				<option data-subtext="+2 punktów premium">2zł (2,46zł z VAT)</option>
+				<option data-subtext="+5 punktów premium">4zł (4.92zł z VAT)</option>
+				<option data-subtext="+15 punkty premium">6zł (7.38zł z VAT)</option>
+				<option data-subtext="+30 punktów premium">11zł (12,30zł z VAT)</option>
+				<option data-subtext="+55 punkty premium">19zł (23.37zł z VAT)</option>
+				<option data-subtext="+100 punktów premium">25zł (30,75zł z VAT)</option>
+			</select></center>
+			<div id="trescsmsa">
+			Aby kupić punkty premium wyślij sms o treści:
+			<span id="tresc"></span>, koszt: <span id="koszt"></span>. Wpisując kod otrzymasz <span id="otrzymasz"></span>. Otrzymasz kod który należy wpisać w polu poniżej.
+			<br/><br/>
+			</div>
+			<div class="col-xs-3">
+			  <input maxlength="10" class="form-control" id="ex1" type="text">
+			</div>
+			<button type="button" class="btn btn-primary" onclick="sprawdzSMS()">Wyślij</button>
+		</div>
+		<div id="tab2__">
+			<center><b1><h1>INFORMACJA</h1></b></center>
+			</br>
+			<center>Aby zakupic <b>punkty premium</b>, poprzez PaySafeCard wejdź na stronę <b>http://mta-itsyourworld.pl/sklepdayz/</b> oraz postępuj według podanej tam instrukcji. Automatyczny panel przeprowadzi Cię przez drogę kupna.</br>Punkty premium są dodawane do 10 minut!</center>
+			
+			</br>
+			<center><b>1zł = 4 punkty premium</b></center>
+		</div>
+		<div id="tab3__">
+			<center><b><h1>SPOSÓB PŁATNOŚCI PAYPAL</h1></b></center>
+			<br>
+			<center><h1>Cennik</h1></center>
+			<br>
+			<b>1zł = 3punkty premium</b>
+			<br>
+			Aby zakupić <b>Punkty Premium poprzez PayPal</b>, wyślij pieniądze na podany adres email, w uwadze podaj swoje <b>UID</b>.</br>
+			Email: <b>sebajura1234@gmail.com</b></br>
+			Podczas wysyłania przelewu, proszę zaznaczyć <b>DLA RODZINY</b>!
+		</div>
+	</div>
+	</div>
+	<div id="tab6">
+		<div id="mojekonto" style="overflow-y:scroll;height:400px;border:1px solid black;">
+			test <lua id="lua_1">getPlayerName(localPlayer)</lua>+<lua id="lua_2">1+1</lua>
+		</div>
+	</div>
+	
+	<div id="tab7">
+		<div id="ustawienia" style="overflow-y:scroll;height:400px;border:1px solid black;">
+			<center>
+				<button onclick="napraw()" type="button" class="btn btn-success" style="width:80%;margin-top:10px">Przywróć domyślną konfiguracje / Napraw konfiguracje</button>
+				<button onclick="zapiszconfig()" type="button" class="btn btn-success" style="width:80%;margin-top:10px">Zapisz</button>
+				
+				<h3>Język</h3>
+			</center>
+			<select id="jezyk" class="selectpicker show-tick form-control" style="width:60%"> <!--data-subtext="option subtext"-->
+
+			</select>
+			<center>
+				<h3>Kolejność wyświetlania ekwipunku</h3>
+				<h6>Przeciągnij i upuść</h6>
+				<ul id="sortable" style="width:50%;list-style-type: none">
+				</ul>
+			</center>
+			<script>
+			$( "#sortable" ).sortable({
+			  revert: true
+			});
+			</script>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Opcje</div>
+            
+                <!-- List group -->
+				<ul>
+                    <li class="list-group-item">
+                        Wyłącz dźwięki tła
+                        <div class="material-switch pull-right">
+                            <input id="Switch1" name="someSwitchOption001" type="checkbox"/>
+                            <label for="Switch1" class="label-success"></label>
+                        </div>
+                    </li>
+					<li class="list-group-item">
+                        Podwójne kliknięcie używa przedmiot
+                        <div class="material-switch pull-right">
+                            <input id="Switch2" name="someSwitchOption002" type="checkbox"/>
+                            <label for="Switch2" class="label-success"></label>
+                        </div>
+                    </li>
+				<ul>
+            </div>    
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Podmianki</div>
+				<div id="listapodmianek">
+				</div>
+            </div>    
+
+        </div>
+    </div>
+</div>
+			<center>
+				<button onclick="zapiszconfig()" type="button" class="btn btn-success" style="width:80%;margin-top:10px">Zapisz</button>
+			</center>
+		</div>
+	</div>
+	
+	<div id="tab1">
+		<center><img id="animacja1" src="img/logo.png" width="75%" height="75%">
+		<h1>Witaj na serwerze Day-Dayz sieci mta-itsyourworld.pl</h1></center>
+		<h6>forum: mta-itsyourworld.pl<br>teamspeak: iy-w.pl</h6>
+	</div>
+	<div id="tab2">
+	</div>
+	<div id="tab3">
+		<div id="tabs2">
+			<ul>
+				<li><a style="width:212px;text-align:center;" href="#tab1">Gracze</a></li>
+				<li><a style="width:213px;text-align:center;" href="#tab2">Gangi</a></li>
+				<li><a style="width:212px;text-align:center;" href="#tab3">Inne</a></li>
+			</ul>
+			<div id="tab1">
+				<center>
+					<div class="col-lg-10">
+						<select id="gracze" class="selectpicker show-tick form-control"> <!--data-subtext="option subtext"-->
+							<option disabled selected>Wybierz kategorię</option>
+							<option data-subtext="GP się nie liczą" value="najlepszy">Top najlepszy z najlepszych</option>
+							<option value="morderstwa">Top morderstwa</option>
+							<option value="czasgry">Top czas gry</option>
+							<option value="zabitezombie">Top zabite zombie</option>
+							<option value="najbogatsi">Top najbogatsi</option>
+						</select>
+					</div>
+					<div class="ranking">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Miejsce</th>
+									<th>Gracz</th>
+									<th>Punkty</th>
+								</tr>
+							</thead>
+							<tbody id="ranking">
+							</tbody>
+						</table>
+						
+					</div>
+				</center>
+			</div>
+			<div id="tab2">
+				<center>
+					<h1>Wkrótce!</h1>
+					<img id="animacja2" src="img/logo.png" width="75%" height="75%">
+					<h3>Tutaj będzie topka gangów</h3>
+				</center>
+			</div>
+			<div id="tab3">
+				<center>
+					<h1>Wkrótce!</h1>
+					<img id="animacja2" src="img/logo.png" width="75%" height="75%">
+					<h3>Tutaj będzie topka najcześciej używanych broni itp.</h3>
+				</center>
+			</div>
+		</div>
+	</div>
+	<div id="tab4">
+		<div id="changelog" style="overflow-y:scroll;height:400px;border:1px solid black;">
+		
+		</div>
+	</div>
+	<div id="tab5">
+		<div id="poradniki" style="overflow-y:scroll;height:400px;border:1px solid black;">
+			<div id="tabs3">
+				<ul>
+					
+					<li><a href="#tab1">Ikony na mapie</a></li>
+					<li><a href="#tab2">Przedmioty</a></li>
+					<li><a href="#tab3">Gangi</a></li>
+					<li><a href="#tab4">Bazy</a></li>
+					<li><a href="#tab7">Eventy</a></li>
+					<li><a href="#tab5">Pojazdy</a></li>
+					<li><a href="#tab6">Q&amp;A</a></li>
+					<li><a href="#tab8">Darmowe bazy</a></li>
+					
+				</ul>
+				<div id="tab8">
+					<center><h3>
+					Darmowe bazy:
+					</h3></center>
+					Aby założyć darmową baze, musisz w sklepie pod klawiszem F7 kupić plan budowy.<br/>Po ustawieniu go w wybranym miejscu. Otrzymasz w ten sposób bazę w której możesz budować. Limity to 65 objektów i 30metrów średnicy.<br/>Bazy takie mogą być atakowane przez dowolną osobe i mogą być naprawiane używając drewna. Bazy mogą posiadać bramy i drzwi na hasło. Zarządzanie bazami jest pod panelem F4. Bazę trzeba przedłużać co miesiąc za 10000GP.
+				</div>
+				<div id="tab1">
+					<center><h1>Znaczenia ikon</h1></center>
+					<img id="ikona" src="img/46.png" width="8%" height="8%">
+					<label for="ikona"> Miejsce występowania wysp.</label><br/>
+					<img id="ikona" src="img/56.png" width="8%" height="8%">
+					<label for="ikona"> Miejsce o podwyższonej ilości przedmiotów.</label><br/>
+					<img id="ikona" src="img/8.png" width="8%" height="8%">
+					<label for="ikona"> Bezpieczna strefa z możliwością zakupu i eksploatacji baz.</label><br/>
+					<img id="ikona" src="img/19.png" width="8%" height="8%">
+					<label for="ikona"> Event.</label><br/>
+					<img id="ikona" src="img/23.png" width="8%" height="8%">
+					<label for="ikona"> Miejsce o podwyższonej ilości przedmiotów.</label><br/>
+				</div>
+				
+				<div id="tab2">
+				</div>
+				<div id="tab3">
+				</div>
+				<div id="tab4">
+				Bazę możesz kupić u Ruska
+				</div>
+				<div id="tab5">
+					<center><h1>Lista oraz specyfikacji wszystkich dostępnych pojazdów</h1></center>
+					<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Pojazd</th>
+							<th>Silników</th>
+							<th>Kół</th>
+							<th>Zbiorników</th>
+							<th>Paliwo</th>
+							<th>Sloty</th>
+						</tr>
+					</thead>
+					<tbody id="pojazdy_">
+					</tbody>
+					</table>
+				</div>
+				<div id="tab7">
+					<div class="panel-group" id="accordion">
+						<div style="font-size: 27px;margin:20px;margin-bottom:0;text-align:center;">Eventy</div>
+						
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_1_"><img id="ikona" src="img/19.png" width="6%" height="6%"> - Paczka z przedmiotami</a></h4></div>
+							<div id="pytanie_1_" class="panel-collapse collapse"><div class="panel-body">Jest to event polegający na tym że w wybranym miejscu przez administratora pojawia się mała, średnia lub duża paczka z przedmiotami. Zadaniem graczy jest przejęcie i zlootowanie przedmiotów w niej się znajdujących</div></div>
+						</div>
+						<!--<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_2">Ile kosztują bazy i co dostaję po ich kupieniu?</a></h4></div>
+							<div id="pytanie_2" class="panel-collapse collapse"><div class="panel-body">Informacje o bazach znajdziesz w zakładce "Bazy"</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_3">Gdzie mogę kupić punkty premium (pp)</a></h4></div>
+							<div id="pytanie_3" class="panel-collapse collapse"><div class="panel-body">Punkty premium (pp) możesz kupić w oficjalnym sklepie na vip.niceshot.eu</div></div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_4">Mam pytanie</a></h4></div>
+							<div id="pytanie_4" class="panel-collapse collapse"><div class="panel-body">To zgłoś się do admina/supportera</div></div>
+						</div>-->
+					</div>
+				</div>
+				<div id="tab6">
+					<div class="panel-group" id="accordion">
+						<div style="font-size: 27px;margin:20px;margin-bottom:0;text-align:center;">Najczęściej zadawane pytania:</div>
+						<div style="font-size: 10px;margin:0;margin-bottom:10px;text-align:center;">Kliknij na pytanie aby zobaczyć odpowiedź!</div>
+						
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_1">Kiedy respawn przedmiotów?</a></h4></div>
+							<div id="pytanie_1" class="panel-collapse collapse"><div class="panel-body">Respawny są o godzinach: 00:00 / 6:00 / 12:00 / 15:00 / 18:00 / 21:00</div></div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_2">Ile kosztują bazy i co dostaję po ich kupieniu?</a></h4></div>
+							<div id="pytanie_2" class="panel-collapse collapse"><div class="panel-body">Informacje o bazach znajdziesz w zakładce "Bazy"</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_3">Gdzie mogę kupić punkty premium (pp)</a></h4></div>
+							<div id="pytanie_3" class="panel-collapse collapse"><div class="panel-body">Punkty premium (pp) możesz kupić w oficjalnym sklepie na mta-itsyourworld.pl</div></div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_4">Mam pytanie</a></h4></div>
+							<div id="pytanie_4" class="panel-collapse collapse"><div class="panel-body">To zgłoś się do admina/supportera</div></div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_5">Jak mogę przelać GP?</a></h4></div>
+							<div id="pytanie_5" class="panel-collapse collapse"><div class="panel-body">Wystraczy wpisać komende /przelej</div></div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#pytanie_6">Jak dodać przedmiot na pasek szybkiego wyboru?</a></h4></div>
+							<div id="pytanie_6" class="panel-collapse collapse"><div class="panel-body">Posiadając otwary ekwipunek klikasz na przedmiot który cię interesuje np M4, następnie klikasz klawisz od 1 do 5 ( zależy na jaki slot chcesz przypisać przedmiot ). Aby go usunąć w ekwipunku klikasz kombinacje lewy shift i klawisz od 1 do 5. Aby użyć przedmiotu, klikasz klawisz od 1 - 5 (nie działa na klawiaturze numerycznej). Pasek symuluje użycie przedmiotu.</div></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$( "#tabs1" ).tabs()
+	$( "#tabs2" ).tabs()
+	$( "#tabs3" ).tabs()
+	$( "#tabs4" ).tabs()
+</script>
+</body>
+</html>
+
+
+
+
+<style type="text/css">
+    .qr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prices {
+        padding-bottom: 30px;
+        color: #fff;
+        background: #B3C0DD;
+        background: -moz-linear-gradient(-45deg, #3f4c6b 0%, #3f4c6b 100%);
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#3f4c6b), color-stop(100%,#3f4c6b));
+        background: -webkit-linear-gradient(-45deg, #B3C0DD 0%,#3f4c6b 100%);
+        background: -o-linear-gradient(-45deg, #B3C0DD 0%,#3f4c6b 100%);
+        background: -ms-linear-gradient(-45deg, #B3C0DD 0%,#3f4c6b 100%);
+        background: linear-gradient(135deg, #B3C0DD 0%,#3f4c6b 100%);
+    }
+
+    .pricing-tables-jumbotron {
+        text-align: center;
+        background: none;
+    }
+
+    .big {
+        font-size: 25px;
+    }
+    
+    .option {
+        background: #f9f9f9;
+        box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+        border-radius: 4px 4px 0 0;
+        position: relative;
+        margin: 10px 0;
+        text-align: center;
+        color: #333;
+    }
+
+        .option:hover .hided-icon {
+            color: #fff;
+            padding: 0 10px;
+        }
+
+        .option > .option-title {
+            padding: 20px;
+        }
+
+            .option > .option-title > h3 {
+                font-weight: bold;
+                font-size: 32px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            .option > .option-title > span {
+                font-style: italic;
+                font-size: 16px;
+            }
+
+        .option > .option-price {
+            background: #fff;
+            padding: 0 0 5px;
+            color: #0FB112;
+        }
+
+            .option > .option-price > .price {
+                display: block;
+                font-size: 72px;
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            .option > .option-price > .period {
+                font-size: 14px;
+            }
+
+        .option .option-list {
+            padding: 0;
+        }
+
+        .option .item-list {
+            list-style: none;
+            padding: 0;
+        }
+
+            .option .item-list li:nth-child(even) {
+                background: #fdfdfd;
+            }
+
+            .option .item-list > li {
+                padding: 10px 5px;
+                font-size: 16px;
+            }
+
+        .option .btn {
+            width: 100%;
+            padding: 18px 8px;
+            border-radius: 0;
+            border: none;
+            text-transform: uppercase;
+        }
+
+        .option .btn-success {
+            color: #fff;
+            background: #0FB112;
+        }
+
+            .option .btn-success:hover {
+                background: #1d7019;
+            }
+
+        .option .hided-icon {
+            color: #0FB112;
+            margin-left: -14px;
+            -webkit-transition: all 0.7s ease-in-out;
+            -moz-transition: all 0.7s ease-in-out;
+            -o-transition: all 0.7s ease-in-out;
+            transition: all 0.7s ease-in-out;
+        }
+</style>
+
+

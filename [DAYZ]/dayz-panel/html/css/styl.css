@@ -1,0 +1,114 @@
+﻿*{margin:0;padding:0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body{background-color:transparent;}
+
+@keyframes animacjaobrazka1 {
+    0%   {
+		transform: rotate(0deg);
+		animation-timing-function: ease-out;
+		}
+    25%  {
+		transform: rotate(5deg);
+		animation-timing-function: ease-in;
+		}
+    50%  {
+		transform: rotate(0deg);
+		animation-timing-function: ease-out;
+		}
+    75%  {
+		transform: rotate(-5deg);
+		animation-timing-function: ease-in;
+		}
+
+}
+#animacja1{
+	animation-name: animacjaobrazka1;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes animacjaobrazka2 {
+    0%   {
+		transform: rotate(360deg);
+		animation-timing-function:linear;
+		}
+}
+#animacja2{
+	animation-name: animacjaobrazka2;
+    animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.ranking{
+	margin-top:10px;
+	border: 1px solid black;
+	height:350px;
+	overflow-y: scroll;
+}
+.tabela_ranking{
+	border: 1px solid grey;
+}
+.tabela_ranking > tr{
+	border: 1px solid black;
+	margin:20px;
+	background-color:grey;
+	color:white;
+}
+.tabela_ranking > tr > td{
+	border: 1px solid black;
+	margin:20px;
+}
+.ja{
+	background-color:red;
+}
+
+
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}

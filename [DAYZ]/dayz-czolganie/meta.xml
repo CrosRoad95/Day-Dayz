@@ -1,0 +1,12 @@
+<meta>
+     <info author="CrosRoad95" name="Czołganie" version="1" description=""/>
+ 
+	 <script src="setups.lua" type="server"/>
+	 <script src="setups.lua" type="client" cache="false"/>
+	 
+	 <script src="client.lua" type="client" cache="false"/>
+	 
+	 <script src="server.lua" type="server"/>
+	 
+
+</meta>

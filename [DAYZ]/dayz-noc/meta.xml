@@ -1,0 +1,10 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+
+	<info version="1.0" author="Shmorf" type="script" />
+
+	<script src="c_night.lua" type="client" />
+
+	<file src="night.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+</meta>

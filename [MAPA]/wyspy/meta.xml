@@ -1,0 +1,9 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+    <script src="s.lua" type="server" />
+	<script src="c.lua" type="client" cache="true" />
+	<file src="licencja" />
+	<file src="wyspy/wyspa_1.col" />
+	<file src="wyspy/wyspa_1.dff" />
+	<file src="wyspy/tekstura.txd" />
+</meta>

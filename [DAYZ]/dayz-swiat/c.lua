@@ -1,0 +1,6 @@
+﻿setFarClipDistance(800)
+setFogDistance(600)
+setDevelopmentMode(false)
+resetWaterLevel ()
+createWater(-512,1680,0,-450,1680,0,-570,1800,0,-460,1800,0)	
+createWater(-550,1680,0,-500,1680,0,-500,1800,0,-470,1800,0)	

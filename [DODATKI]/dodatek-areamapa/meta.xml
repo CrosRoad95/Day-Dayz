@@ -1,0 +1,5 @@
+<meta>
+	<info author="Aaron Ransom and Slothman" name="war room" version="2.0.1" type="script"/>
+	<script src="client.lua" type="client"/>
+	<script src="server.lua"/>
+</meta>

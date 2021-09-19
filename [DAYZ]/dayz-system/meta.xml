@@ -1,0 +1,12 @@
+<meta>
+		<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+	<script src="s.lua" type="server"></script>
+	<script src="c.lua" type="client" cache="false"></script>
+	<script src="halas.lua" type="client" cache="false"></script>
+	<script src="przetrwanie_c.lua" type="client" cache="false"></script>
+	<script src="staty_c.lua" type="client" cache="false"></script>
+	
+	<script src="przetrwanie_s.lua" type="server"></script>
+	<file src="zdjecie/zgon.jpg"></file>
+	<export function="aktualizujBronie" type="server" />
+</meta>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Day-Dayz Zasoby</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css.css">
+    <script src="zasoby.js"></script>
+    <script src="search.js"></script>
+    <* = call(getResourceFromName("ajax"),"start", getResourceName(getThisResource()) ) *>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <* if hasObjectPermissionTo( "user."..getAccountName(user), "function.zasoby",true) then *>
+
+	   <input id="search" type="search" placeholder="Szukaj">
+	   <div class="zasoby_scoll">
+			<table>
+				<tbody class="list">
+<* 
+statusNazwa={
+[ "loaded"]={ "Załadowany", "#ff00ff"},
+[ "running"]={ "Włączony", "#006400"},
+[ "starting"]={ "Startuje", "#000064"},
+[ "stopping"]={ "Trwa wyłączanie", "#006400"},
+[ "failed to load"]={ "Nie działa", "#ff0000"}, }
+skrypty={}
+for i,v in ipairs(getResources()) do
+	statusSkryptu=getResourceState(v)
+	status=statusNazwa[statusSkryptu][1]
+	statusKolor=statusNazwa[statusSkryptu][2]
+	nazwa=getResourceName(v)
+	table.insert(skrypty,{nazwa,status,statusKolor})
+end
+table.sort(skrypty, function(a,b) return string.lower(a[1]) < string.lower(b[1]) end)
+for i,v in ipairs(skrypty) do
+*>
+						<tr id="skrypt_<*=v[1]*>">
+							<td class="nazwa">
+								<*=v[1]*>
+							</td>
+							<td class="status" style="color:<* = v[3]*>">
+								<*=v[2]*>
+							</td>
+							<td class="opcje">
+								<button type="button" onclick="zasoby_start_('<*=v[1]*>')" class="btn btn-success">Start</button>
+								<button type="button" onclick="zasoby_stop_('<*=v[1]*>')" class="btn btn-danger">Stop</button>
+								<button type="button" onclick="zasoby_restart_('<*=v[1]*>')" class="btn btn-primary">Restart</button>
+								<button type="button" onclick="zasoby_status_('<*=v[1]*>')" class="btn btn-info">Status</button>
+							</td>
+						</tr>
+						<* end *>
+				</tbody>
+			</table>
+		</div>
+<* else *>
+		<h1>Brak dostępu</h1>
+	<* end *>
+</body>
+
+</html>

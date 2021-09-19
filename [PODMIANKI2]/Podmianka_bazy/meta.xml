@@ -1,0 +1,40 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+
+<script type="client" src="client.lua" cache="true"/>
+
+<file src="a.txd" type="client"></file>
+<file src="podmianki/Fundamenty_1.dff" type="client"></file>
+<file src="podmianki/Fundamenty_1.col" type="client"></file>
+<file src="podmianki/Fundamenty_1_1.dff" type="client"></file>
+<file src="podmianki/Fundamenty_1_1.col" type="client"></file>
+<file src="podmianki/Fundamenty_2.dff" type="client"></file>
+<file src="podmianki/Fundamenty_2.col" type="client"></file>
+<file src="podmianki/Sciana_1.dff" type="client"></file>
+<file src="podmianki/Sciana_1.col" type="client"></file>
+<file src="podmianki/Sciana_2.dff" type="client"></file>
+<file src="podmianki/Sciana_2.col" type="client"></file>
+<file src="podmianki/Okno_1.dff" type="client"></file>
+<file src="podmianki/Okno_1.col" type="client"></file>
+<file src="podmianki/Dach_1.dff" type="client"></file>
+<file src="podmianki/Dach_1.col" type="client"></file>
+<file src="podmianki/Dach_2.dff" type="client"></file>
+<file src="podmianki/Dach_2.col" type="client"></file>
+<file src="podmianki/Dach_3.dff" type="client"></file>
+<file src="podmianki/Dach_3.col" type="client"></file>
+<file src="podmianki/Podloga_1.dff" type="client"></file>
+<file src="podmianki/Podloga_1.col" type="client"></file>
+<file src="podmianki/Podloga_2.dff" type="client"></file>
+<file src="podmianki/Podloga_2.col" type="client"></file>
+<file src="podmianki/Rama_drzwi_1.dff" type="client"></file>
+<file src="podmianki/Rama_drzwi_1.col" type="client"></file>
+<file src="podmianki/Rama_drzwi_2.dff" type="client"></file>
+<file src="podmianki/Rama_drzwi_2.col" type="client"></file>
+<file src="podmianki/Schody_1.dff" type="client"></file>
+<file src="podmianki/Schody_1.col" type="client"></file>
+<file src="podmianki/Drzwi_1.dff" type="client"></file>
+<file src="podmianki/Drzwi_1.col" type="client"></file>
+<file src="podmianki/Drzwi_2.dff" type="client"></file>
+<file src="podmianki/Drzwi_2.col" type="client"></file>
+
+</meta>

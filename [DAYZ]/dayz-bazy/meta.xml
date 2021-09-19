@@ -1,0 +1,14 @@
+<meta>
+	<info author="CrosRoad95"  type="script" description="" version="1.0" />
+	<file src="X.png" />
+	<script src="c.lua" type="client" cache="false" />
+	<script src="cc.lua" type="client" cache="false" />
+	
+	<script src="gui.lua" type="client" cache="false" />
+	<script src="s.lua" type="server" />
+	<script src="ss.lua" type="server" />
+	<export function="stworzPickup" type="server" />
+	<export function="stworzElement" type="server" />
+	<export function="stworzCol" type="server" />
+	
+</meta>

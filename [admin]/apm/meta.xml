@@ -1,0 +1,8 @@
+<meta>
+	<info author="SoRa" version="1.0.2" type="script" name="apm" description="ACL Permissions Manager" />
+                 <script src="server.lua" type="server" />
+                 <script src="client.lua" type="client" />
+	<settings>
+		<setting name="*allowedGroup" value="Console" desc="Allowed group to use the command /apm " />
+                </settings>
+</meta>

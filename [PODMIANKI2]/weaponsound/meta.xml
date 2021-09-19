@@ -1,0 +1,16 @@
+<meta>
+	<info author="Atlas" version="1.3.2" type="script" name="Weapon Sounds" description="Weapon Sounds - Zombie Outbreak Reloaded" />
+	<script src="weapon_sounds_client.lua" type="client" />
+	
+	<file src="sounds/Colt45.wav" />
+	<file src="sounds/Deagle.wav" />
+	<file src="sounds/Silenced.wav" />
+	<file src="sounds/Shotgun.wav" />
+	<file src="sounds/Sawed-Off.wav" />
+	<file src="sounds/Combat Shotgun.wav" />
+	<file src="sounds/UZI_Tec9.wav" />
+	<file src="sounds/MP5.wav" />
+	<file src="sounds/M4_AK47.wav" />
+	<file src="sounds/Rifle.wav" />
+	<file src="sounds/Sniper.wav" />
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+		<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+	<script src="s.lua" type="server"></script>
+	<script src="uzycie_s.lua" type="server"></script>
+	<script src="c.lua" type="client" cache="false"></script>
+	<script src="uzycie_c.lua" type="client" cache="false"></script>
+    <file src="obrazy/tlo.jpg"/>
+	<file src="obrazy/rcmenu.png"/>
+	<file src="obrazy/crafting.png"/>
+	<export function="animacja" type="server" />
+	<export function="isInventoryVisible" type="client" />
+	<export function="remoteUseItem" type="client" />
+	
+</meta>

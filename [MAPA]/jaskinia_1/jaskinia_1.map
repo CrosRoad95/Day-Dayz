@@ -1,0 +1,18 @@
+<map edf:definitions="editor_main">
+    <object id="object (pirtshp01_lvs) (1)" breakable="true" interior="0" alpha="255" model="8493" doublesided="false" scale="1" dimension="0" posX="-523" posY="1713.1" posZ="13.8" rotX="0" rotY="0" rotZ="152.75"></object>
+    <object id="object (pirtshp02_lvs) (1)" breakable="true" interior="0" alpha="255" model="9159" doublesided="false" scale="1" dimension="0" posX="-523" posY="1713.1" posZ="13.8" rotX="0" rotY="0" rotZ="152.75"></object>
+    <object id="object (sw_jetty) (1)" breakable="true" interior="0" alpha="255" model="12990" doublesided="false" scale="1" dimension="0" posX="-549.90002" posY="1685.1" posZ="1.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (xjetty01) (1)" breakable="true" interior="0" alpha="255" model="17068" doublesided="false" scale="1" dimension="0" posX="-541.5" posY="1705.5" posZ="1" rotX="0" rotY="0" rotZ="330"></object>
+    <object id="object (xjetty01) (2)" breakable="true" interior="0" alpha="255" model="17068" doublesided="false" scale="1" dimension="0" posX="-531.29999" posY="1724.9" posZ="1" rotX="0" rotY="0" rotZ="333.996"></object>
+    <object id="object (xjetty01) (3)" breakable="true" interior="0" alpha="255" model="17068" doublesided="false" scale="1" dimension="0" posX="-520.90002" posY="1744.3" posZ="1" rotX="0" rotY="0" rotZ="329.745"></object>
+    <object id="object (xjetty01) (4)" breakable="true" interior="0" alpha="255" model="17068" doublesided="false" scale="1" dimension="0" posX="-511.20001" posY="1763.7" posZ="1" rotX="0" rotY="0" rotZ="336.994"></object>
+    <object id="object (des_ranchjetty) (1)" breakable="true" interior="0" alpha="255" model="11495" doublesided="false" scale="1" dimension="0" posX="-528.40002" posY="1679.9" posZ="0" rotX="0" rotY="0" rotZ="318"></object>
+    <object id="object (xjetty01) (5)" breakable="true" interior="0" alpha="255" model="17068" doublesided="false" scale="1" dimension="0" posX="-496.79999" posY="1772.6" posZ="1" rotX="0" rotY="0" rotZ="260.989"></object>
+    <object id="object (cn2_jetty1) (1)" breakable="true" interior="0" alpha="255" model="16502" doublesided="false" scale="1" dimension="0" posX="-519" posY="1692.3" posZ="0" rotX="0" rotY="358" rotZ="60"></object>
+    <object id="object (cn2_jetty1) (2)" breakable="true" interior="0" alpha="255" model="16502" doublesided="false" scale="1" dimension="0" posX="-510.20001" posY="1703.5" posZ="3.5" rotX="0" rotY="357.995" rotZ="51.746"></object>
+    <object id="object (cn2_jetty1) (3)" breakable="true" interior="0" alpha="255" model="16502" doublesided="false" scale="1" dimension="0" posX="-502.10001" posY="1713.5" posZ="5.4" rotX="0" rotY="7.99" rotZ="51.746"></object>
+    <object id="object (cn2_jetty1) (4)" breakable="true" interior="0" alpha="255" model="16502" doublesided="false" scale="1" dimension="0" posX="-493.39999" posY="1725.5" posZ="5.9" rotX="0" rotY="11.987" rotZ="55.49"></object>
+    <object id="object (xjetty01) (7)" breakable="true" interior="0" alpha="255" model="17068" doublesided="false" scale="1" dimension="0" posX="-491.29999" posY="1724.8" posZ="8.3" rotX="0" rotY="0" rotZ="46"></object>
+    <object id="object (xjetty01) (8)" breakable="true" interior="0" alpha="255" model="17068" doublesided="false" scale="1" dimension="0" posX="-494.5" posY="1741.6" posZ="8.3" rotX="0" rotY="0" rotZ="148.25"></object>
+    <object id="object (DYN_F_WOOD_2) (1)" breakable="true" interior="0" alpha="255" model="1408" doublesided="false" scale="1" dimension="0" posX="-502.79999" posY="1734.8" posZ="8.6" rotX="275.344" rotY="100.754" rotZ="67.8"></object>
+</map>

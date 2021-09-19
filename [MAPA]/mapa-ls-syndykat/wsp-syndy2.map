@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (sm_scrub_rock3) (1)" breakable="true" doublesided="true" model="747" posX="279" posY="-2906.19995" posZ="7.5" rotX="0" rotY="0" rotZ="93.502"></object>
+    <object id="object (sm_scrub_rock3) (6)" breakable="true" doublesided="true" model="747" posX="287.89999" posY="-2908.19995" posZ="7.6" rotX="0" rotY="0" rotZ="271.641"></object>
+    <object id="object (sm_scrub_rock3) (7)" breakable="true" doublesided="true" model="747" posX="288.10001" posY="-2910.19995" posZ="7.7" rotX="0" rotY="0" rotZ="271.637"></object>
+    <object id="object (sm_scrub_rock3) (8)" breakable="true" doublesided="true" model="747" posX="288.5" posY="-2911.8999" posZ="7.8" rotX="0" rotY="0" rotZ="271.637"></object>
+    <object id="object (sm_scrub_rock3) (9)" breakable="true" doublesided="true" model="747" posX="289" posY="-2914.1001" posZ="8" rotX="0" rotY="0" rotZ="271.637"></object>
+    <object id="object (sm_scrub_rock3) (10)" breakable="true" doublesided="true" model="747" posX="289.20001" posY="-2916.19995" posZ="8.1" rotX="0" rotY="0" rotZ="271.637"></object>
+    <object id="object (sm_scrub_rock3) (11)" breakable="true" doublesided="true" model="747" posX="281" posY="-2906" posZ="7.3" rotX="0" rotY="0" rotZ="93.499"></object>
+    <object id="object (sm_scrub_rock3) (12)" breakable="true" doublesided="true" model="747" posX="283.29999" posY="-2905.69995" posZ="7.3" rotX="0" rotY="0" rotZ="91.442"></object>
+    <object id="object (sm_scrub_rock3) (13)" breakable="true" doublesided="true" model="747" posX="285.39999" posY="-2905.30005" posZ="7.3" rotX="0" rotY="0" rotZ="93.499"></object>
+    <object id="object (sm_scrub_rock3) (14)" breakable="true" doublesided="true" model="747" posX="287.39999" posY="-2905.6001" posZ="7.4" rotX="0" rotY="0" rotZ="53.336"></object>
+    <object id="object (sm_scrub_rock3) (15)" breakable="true" doublesided="true" model="747" posX="276.89999" posY="-2906.5" posZ="7.4" rotX="0" rotY="0" rotZ="93.499"></object>
+    <object id="object (sm_scrub_rock3) (16)" breakable="true" doublesided="true" model="747" posX="266.89999" posY="-2908" posZ="7.5" rotX="0" rotY="0" rotZ="81.156"></object>
+    <object id="object (sm_scrub_rock3) (17)" breakable="true" doublesided="true" model="747" posX="264.79999" posY="-2908.19995" posZ="7.5" rotX="0" rotY="0" rotZ="82.185"></object>
+    <object id="object (sm_scrub_rock3) (18)" breakable="true" doublesided="true" model="747" posX="262.39999" posY="-2908.6001" posZ="7.5" rotX="0" rotY="0" rotZ="82.183"></object>
+    <object id="object (sm_scrub_rock3) (19)" breakable="true" doublesided="true" model="747" posX="260" posY="-2909.1001" posZ="7.5" rotX="0" rotY="0" rotZ="82.183"></object>
+    <object id="object (sm_scrub_rock3) (20)" breakable="true" doublesided="true" model="747" posX="257.39999" posY="-2909.6001" posZ="7.6" rotX="0" rotY="0" rotZ="82.183"></object>
+    <object id="object (sm_scrub_rock3) (21)" breakable="true" doublesided="true" model="747" posX="257" posY="-2912.3999" posZ="7.8" rotX="0" rotY="0" rotZ="170.542"></object>
+    <object id="object (sm_scrub_rock3) (22)" breakable="true" doublesided="true" model="747" posX="257.29999" posY="-2914.8999" posZ="8" rotX="0" rotY="0" rotZ="170.541"></object>
+    <object id="object (sm_scrub_rock3) (23)" breakable="true" doublesided="true" model="747" posX="257.39999" posY="-2917.5" posZ="8.2" rotX="0" rotY="0" rotZ="170.541"></object>
+    <object id="object (sm_scrub_rock3) (24)" breakable="true" doublesided="true" model="747" posX="257.79999" posY="-2919.8999" posZ="8.3" rotX="0" rotY="0" rotZ="170.541"></object>
+</map>

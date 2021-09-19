@@ -1,0 +1,7 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+
+	<min_mta_version client="1.3.0-9.03783" />
+	<script src="drzewa.lua" type="server" />
+	<script src="scinka_c.lua" type="client" />
+</meta>

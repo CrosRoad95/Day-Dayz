@@ -1,0 +1,8 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+
+    <min_mta_version client="1.4.1" server="1.4.1" />
+    <script src="Matrix.lua" type="client" cache="false" />
+    <script src="SourceS.lua" type="server" />
+    <script src="SourceC.lua" type="client" cache="false" />
+</meta>

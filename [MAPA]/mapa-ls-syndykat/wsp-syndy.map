@@ -1,0 +1,95 @@
+<map edf:definitions="editor_main">
+    <object id="object (groundbit_11_SFS) (1)" breakable="true" doublesided="true" model="10352" posX="238.89999" posY="-2913.3999" posZ="4.9" rotX="0" rotY="0" rotZ="271.641"></object>
+    <object id="object (drydock3_SFSe) (1)" breakable="true" doublesided="false" model="10831" posX="307.60001" posY="-2917.80005" posZ="11.4" rotX="0" rotY="0" rotZ="188.229"></object>
+    <object id="object (drydock3_SFSe) (2)" breakable="true" doublesided="false" model="10831" posX="274.39999" posY="-2922.6001" posZ="13.1" rotX="0" rotY="0" rotZ="188.223"></object>
+    <object id="object (drydock2_SFSe) (1)" breakable="true" doublesided="false" model="10830" posX="283.5" posY="-2866" posZ="7.2" rotX="0" rotY="0" rotZ="53.339"></object>
+    <object id="object (ws_jettynol_SFX) (1)" breakable="true" doublesided="true" model="3886" posX="284.39999" posY="-2872.1001" posZ="0.8" rotX="0" rotY="0" rotZ="8.033"></object>
+    <object id="object (ws_jettynol_SFX) (2)" breakable="true" doublesided="true" model="3886" posX="282.95001" posY="-2861.72998" posZ="0.8" rotX="0" rotY="0" rotZ="8.03"></object>
+    <object id="object (des_ranch) (2)" breakable="true" doublesided="false" posX="-689.70001" posY="943.40002" posZ="15.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ws_jettynol_SFX) (3)" breakable="true" doublesided="true" model="3886" posX="281.5" posY="-2851.80005" posZ="0.78" rotX="0" rotY="0" rotZ="8.03"></object>
+    <object id="object (des_ranch) (3)" breakable="true" doublesided="false" model="11490" posX="159.2" posY="-2924.8999" posZ="7.2" rotX="0" rotY="0" rotZ="183.282" scale="1"></object>
+    <object id="object (des_ranchbits1) (2)" breakable="true" doublesided="false" model="11491" posX="158.56" posY="-2913.87988" posZ="8.7" rotX="0" rotY="0" rotZ="183.282"></object>
+    <object id="object (des_bigtelescope) (1)" breakable="true" doublesided="false" model="16613" posX="175.8" posY="-2968.69995" posZ="5.3" rotX="0" rotY="0" rotZ="70.824" scale="1"></object>
+    <object id="object (ranch_desk) (1)" breakable="true" doublesided="false" model="11631" posX="162.89999" posY="-2928.19995" posZ="10" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (kb_couch02ext) (1)" breakable="true" doublesided="false" model="11664" posX="156.5" posY="-2927.80005" posZ="9.2" rotX="0" rotY="0" rotZ="186"></object>
+    <object id="object (pier69_sfe2) (2)" breakable="true" doublesided="false" model="9956" posX="161" posY="-2829.19995" posZ="-17.9" rotX="0" rotY="0" rotZ="3.086" scale="1"></object>
+    <object id="object (des_rockgp2_) (2)" breakable="true" doublesided="false" model="16114" posX="95" posY="-2889.19995" posZ="-10.9" rotX="0" rotY="0" rotZ="16.065"></object>
+    <object id="object (des_rockgp2_) (3)" breakable="true" doublesided="false" model="16114" posX="94.9" posY="-2936.6001" posZ="-4.9" rotX="0" rotY="0" rotZ="183.282"></object>
+    <object id="object (des_rockgp2_) (4)" breakable="true" doublesided="false" model="16114" posX="96.6" posY="-2969" posZ="0" rotX="0" rotY="0" rotZ="183.279"></object>
+    <object id="object (des_rockgp2_) (5)" breakable="true" doublesided="false" model="16114" posX="102.2" posY="-3001.19995" posZ="-2.3" rotX="0" rotY="0" rotZ="223.443"></object>
+    <object id="object (des_rockgp2_) (6)" breakable="true" doublesided="false" model="16114" posX="135.10001" posY="-3007.30005" posZ="-4.2" rotX="0" rotY="0" rotZ="271.636"></object>
+    <object id="object (des_rockgp2_) (7)" breakable="true" doublesided="false" model="16114" posX="163.7" posY="-3004.6001" posZ="-6" rotX="0" rotY="0" rotZ="271.631"></object>
+    <object id="object (des_rockgp2_) (8)" breakable="true" doublesided="false" model="16114" posX="193.7" posY="-2998.8999" posZ="-7.3" rotX="0" rotY="0" rotZ="271.631"></object>
+    <object id="object (des_rockgp2_) (9)" breakable="true" doublesided="false" model="16114" posX="223.5" posY="-3001" posZ="-8.9" rotX="0" rotY="0" rotZ="279.664"></object>
+    <object id="object (des_rockgp2_) (10)" breakable="true" doublesided="false" model="16114" posX="254.10001" posY="-2998.1001" posZ="-7.5" rotX="0" rotY="0" rotZ="279.662"></object>
+    <object id="object (des_rockgp2_) (11)" breakable="true" doublesided="false" model="16114" posX="283" posY="-2994.5" posZ="-8.4" rotX="0" rotY="0" rotZ="279.662"></object>
+    <object id="object (des_rockgp2_) (12)" breakable="true" doublesided="false" model="16114" posX="310.70001" posY="-2993.5" posZ="-8.4" rotX="0" rotY="0" rotZ="279.662"></object>
+    <object id="object (MED_OFFICE_UNIT_5) (1)" breakable="true" doublesided="false" model="2164" posX="154.60001" posY="-2923.3999" posZ="8.7" rotX="0" rotY="0" rotZ="94" scale="1"></object>
+    <object id="object (des_rockgp2_) (13)" breakable="true" doublesided="false" model="16114" posX="337.29999" posY="-2991.3999" posZ="-6.6" rotX="0" rotY="0" rotZ="279.662"></object>
+    <object id="object (des_rockgp2_) (14)" breakable="true" doublesided="false" model="16114" posX="367.60001" posY="-2996" posZ="-5.6" rotX="0" rotY="0" rotZ="277.605"></object>
+    <object id="object (des_rockgp2_) (15)" breakable="true" doublesided="false" model="16114" posX="388.20001" posY="-2978.19995" posZ="0" rotX="0" rotY="0" rotZ="333.831"></object>
+    <object id="object (des_rockgp2_) (16)" breakable="true" doublesided="false" model="16114" posX="385.29999" posY="-2945.6001" posZ="0" rotX="0" rotY="0" rotZ="13.994"></object>
+    <object id="object (des_rockgp2_) (17)" breakable="true" doublesided="false" model="16114" posX="386.39999" posY="-2898.69995" posZ="-5.6" rotX="0" rotY="0" rotZ="13.991"></object>
+    <object id="object (des_rockgp2_) (18)" breakable="true" doublesided="false" model="16114" posX="387.29999" posY="-2872.80005" posZ="-8.4" rotX="0" rotY="0" rotZ="13.991"></object>
+    <object id="object (des_rockgp2_) (19)" breakable="true" doublesided="false" model="16114" posX="358.5" posY="-2866.6001" posZ="-13.1" rotX="0" rotY="0" rotZ="102.35"></object>
+    <object id="object (sm_fir_group) (1)" breakable="true" doublesided="false" model="683" posX="361.60001" posY="-2963.8999" posZ="16" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (MED_OFFICE_UNIT_7) (1)" breakable="true" doublesided="false" model="2167" posX="154.5" posY="-2921.59961" posZ="8.7" rotX="0" rotY="0" rotZ="92"></object>
+    <object id="object (sm_fir_group) (2)" breakable="true" doublesided="false" model="683" posX="353.39999" posY="-2963.6001" posZ="16.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (3)" breakable="true" doublesided="false" model="683" posX="343.5" posY="-2963.69995" posZ="17.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (4)" breakable="true" doublesided="false" model="683" posX="372.29999" posY="-2963.6001" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (5)" breakable="true" doublesided="false" model="683" posX="370.5" posY="-2951.3999" posZ="12.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (6)" breakable="true" doublesided="false" model="683" posX="359.60001" posY="-2950.6001" posZ="14" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (7)" breakable="true" doublesided="false" model="683" posX="350.89999" posY="-2952.8999" posZ="15.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (8)" breakable="true" doublesided="false" model="683" posX="335.60001" posY="-2968.69995" posZ="17.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (9)" breakable="true" doublesided="false" model="683" posX="338.60001" posY="-2958.3999" posZ="17.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (10)" breakable="true" doublesided="false" model="683" posX="327.89999" posY="-2966.80005" posZ="17.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (11)" breakable="true" doublesided="false" model="683" posX="319.5" posY="-2973.3999" posZ="14" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (12)" breakable="true" doublesided="false" model="683" posX="310.70001" posY="-2972.8999" posZ="16.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (13)" breakable="true" doublesided="false" model="683" posX="321.20001" posY="-2962.8999" posZ="17.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (MED_OFFICE_UNIT_1) (1)" breakable="true" doublesided="false" model="2162" posX="154.39999" posY="-2920.63013" posZ="8.7" rotX="0" rotY="0" rotZ="92" scale="1.1000000238419"></object>
+    <object id="object (sm_fir_group) (14)" breakable="true" doublesided="false" model="683" posX="311.20001" posY="-2962.5" posZ="17.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (15)" breakable="true" doublesided="false" model="683" posX="299.10001" posY="-2975.80005" posZ="14.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (16)" breakable="true" doublesided="false" model="683" posX="301.70001" posY="-2966.1001" posZ="16.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (17)" breakable="true" doublesided="false" model="683" posX="292.29999" posY="-2972.80005" posZ="15.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (18)" breakable="true" doublesided="false" model="683" posX="283.20001" posY="-2978.80005" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (19)" breakable="true" doublesided="false" model="683" posX="287.10001" posY="-2967.19995" posZ="15.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (20)" breakable="true" doublesided="false" model="683" posX="277.79999" posY="-2975.3999" posZ="15.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sm_fir_group) (21)" breakable="true" doublesided="false" model="683" posX="272" posY="-2970.8999" posZ="15.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (flower-bush08a) (1)" breakable="true" doublesided="false" model="14469" posX="258.5" posY="-2977.6001" posZ="15.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (1)" breakable="true" doublesided="false" model="869" posX="264.79999" posY="-2978.3999" posZ="15.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (2)" breakable="true" doublesided="false" model="869" posX="268.39999" posY="-2973" posZ="16" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (3)" breakable="true" doublesided="false" model="869" posX="263.39999" posY="-2973.3999" posZ="16" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (4)" breakable="true" doublesided="false" model="869" posX="271.10001" posY="-2976.8999" posZ="15.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (5)" breakable="true" doublesided="false" model="869" posX="275.79999" posY="-2973" posZ="15.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (6)" breakable="true" doublesided="false" model="869" posX="282.20001" posY="-2980.30005" posZ="15.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (7)" breakable="true" doublesided="false" model="869" posX="288.89999" posY="-2975.30005" posZ="16.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (8)" breakable="true" doublesided="false" model="869" posX="284.89999" posY="-2970.30005" posZ="15.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (9)" breakable="true" doublesided="false" model="869" posX="296.20001" posY="-2974.6001" posZ="16.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowerswee) (10)" breakable="true" doublesided="false" model="869" posX="299.60001" posY="-2968.69995" posZ="16.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowers04) (1)" breakable="true" doublesided="false" model="877" posX="292.89999" posY="-2967.3999" posZ="17.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowers04) (2)" breakable="true" doublesided="false" model="877" posX="309" posY="-2968.69995" posZ="18.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowers04) (3)" breakable="true" doublesided="false" model="877" posX="321" posY="-2967.5" posZ="19.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowers04) (4)" breakable="true" doublesided="false" model="877" posX="332.60001" posY="-2967.6001" posZ="19.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowers04) (5)" breakable="true" doublesided="false" model="877" posX="347.20001" posY="-2965.5" posZ="18.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (veg_Pflowers04) (6)" breakable="true" doublesided="false" model="877" posX="362.79999" posY="-2961" posZ="17.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (genVEG_tallgrass11) (1)" breakable="true" doublesided="false" model="827" posX="269.79999" posY="-2966.6001" posZ="19.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (KEV_SAFE) (1)" breakable="true" doublesided="false" model="2332" posX="164.19995" posY="-2927.19995" posZ="9.2" rotX="0" rotY="0" rotZ="274"></object>
+    <object id="object (a51_labtable1_) (1)" breakable="true" doublesided="false" model="3383" posX="160.2" posY="-2923.5" posZ="8.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (minigun_base) (1)" breakable="true" doublesided="false" model="2985" posX="281.10001" posY="-2848.69995" posZ="1.7" rotX="0" rotY="0" rotZ="96.392"></object>
+    <object id="object (missile_02_SFXR) (1)" breakable="true" doublesided="false" model="3787" posX="261" posY="-2911.8999" posZ="8.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (minigun_base) (2)" breakable="true" doublesided="false" model="2985" posX="207.39999" posY="-2739.5" posZ="0.4" rotX="0" rotY="0" rotZ="89.779"></object>
+    <object id="object (minigun_base) (3)" breakable="true" doublesided="false" model="2985" posX="158.7" posY="-2742.1001" posZ="0.4" rotX="0" rotY="0" rotZ="92.86"></object>
+    <object id="object (minigun_base) (4)" breakable="true" doublesided="false" model="2985" posX="115" posY="-2744.5" posZ="0.4" rotX="0" rotY="0" rotZ="93.889"></object>
+    <object id="object (a51_srack2_) (1)" breakable="true" doublesided="false" model="3386" posX="259.70001" posY="-2912.8999" posZ="7.8" rotX="0" rotY="0" rotZ="174"></object>
+    <object id="object (CJ_FEILDGUN) (1)" breakable="true" doublesided="false" model="2064" posX="194.3" posY="-2974" posZ="14.8" rotX="0" rotY="0" rotZ="184.751"></object>
+    <object id="object (CJ_FEILDGUN) (2)" breakable="true" doublesided="false" model="2064" posX="159.2" posY="-2972.30005" posZ="13.6" rotX="0" rotY="0" rotZ="184.746"></object>
+    <object id="object (CJ_FEILDGUN) (3)" breakable="true" doublesided="false" model="2064" posX="154" posY="-2977.30005" posZ="13.1" rotX="0" rotY="0" rotZ="226.966"></object>
+    <object id="object (CJ_FEILDGUN) (4)" breakable="true" doublesided="false" model="2064" posX="152.60001" posY="-2984.6001" posZ="12.4" rotX="0" rotY="0" rotZ="275.157"></object>
+    <object id="object (missile_07_SFXR) (1)" breakable="true" doublesided="false" model="3794" posX="261.89999" posY="-2919.1001" posZ="8.9" rotX="0" rotY="0" rotZ="184"></object>
+    <object id="object (CJ_FEILDGUN) (5)" breakable="true" doublesided="false" model="2064" posX="199.3" posY="-2977.80005" posZ="14.6" rotX="0" rotY="0" rotZ="151.391"></object>
+    <object id="object (CJ_FEILDGUN) (6)" breakable="true" doublesided="false" model="2064" posX="202" posY="-2984.19995" posZ="13.7" rotX="0" rotY="0" rotZ="121.117"></object>
+    <object id="object (a51_srack2_) (2)" breakable="true" doublesided="false" model="3386" posX="260.60001" posY="-2920.8999" posZ="8.3" rotX="0" rotY="0" rotZ="184"></object>
+    <object id="object (a51_sdsk_3_) (1)" breakable="true" doublesided="false" model="3395" posX="260.20001" posY="-2915.19995" posZ="8" rotX="0" rotY="0" rotZ="190"></object>
+    <object id="object (a51_sdsk_2_) (1)" breakable="true" doublesided="false" model="3394" posX="261.20001" posY="-2923" posZ="8.3" rotX="0" rotY="0" rotZ="188"></object>
+    <object id="object (kmilitary_crate) (1)" breakable="true" doublesided="false" model="2977" posX="262.89999" posY="-2926" posZ="8.2" rotX="0" rotY="0" rotZ="0" scale="2"></object>
+</map>

@@ -1,0 +1,112 @@
+.listSkrypty {
+    font-family: sans-serif;
+}
+
+.zasoby_scoll > table > tbody > tr > td {
+    padding: 8px;
+    border: solid 2px #eee;
+    min-width: 160px;
+}
+
+input {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 7px 14px;
+    margin-bottom: 10px
+}
+input:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+.sort {
+    padding: 8px 30px;
+    border-radius: 6px;
+    border: none;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #28a8e0;
+    height: 30px;
+}
+
+.sort:hover {
+    text-decoration: none;
+    background-color: #1b8aba;
+}
+
+.sort:focus {
+    outline: none;
+}
+
+.sort:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content: "";
+    position: relative;
+    top: -10px;
+    right: -5px;
+}
+
+.sort.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content: "";
+    position: relative;
+    top: 4px;
+    right: -5px;
+}
+
+.sort.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content: "";
+    position: relative;
+    top: -4px;
+    right: -5px;
+}
+
+body{padding:15px;}
+
+.zasoby_scoll {
+    overflow: scroll;
+    height: 90vh;
+	overflow-x: hidden;
+}
+
+.lista_graczy{
+	border:2px solid #eee;
+    height: 90vh;
+	max-width:500px;
+}
+.lista_graczy > div > table > tbody > tr > td:first-child {
+    width: 170px;
+}
+.lista_graczy > div > table > tbody > tr > td {
+    padding: 8px;
+}
+.lista_graczy > div > table > tbody > tr {
+    border-bottom:2px solid grey
+}
+.lista_graczy > div {
+    overflow: scroll;
+	overflow-x: hidden;
+    height: 84vh;
+}
+
+/* 
+    search mode
+*/
+#search{
+    border-radius: 0;
+}

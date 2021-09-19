@@ -1,0 +1,34 @@
+<meta>
+	<include resource="ajax"/>
+	<info author="CrosRoad95" showInResourceBrowser="true" name="Day-Dayz Admin" description="" pages="zasoby.htm|Zasoby,gracze.htm|Gracze,swiat.htm|Świat,moderacja.htm|Moderacja,mapa.htm|Mapa" noDefaultPage="true" />
+	<script src="admin.lua" type="server" />
+	<html src="zasoby.htm"/> <!-- function.zasoby -->
+	<html src="zasoby.js" raw="true"/>
+	
+	<html src="gracze.htm"/> <!-- function.gracze -->
+	<html src="gracze.js" raw="true"/>
+	
+	<html src="swiat.htm"/>
+	<html src="moderacja.htm"/>
+	<html src="mapa.htm"/>
+	
+	<html src="swiat.js" raw="true"/>
+	<html src="moderacja.js" raw="true"/>
+	<html src="mapa.js" raw="true"/>
+	<html src="search.js" raw="true"/>
+	
+	<html src="ie-70.css" raw="true"/>
+	<html src="css.css" raw="true"/>
+	
+
+	<html src="img/i.png" raw="true"/>
+	
+	<export function="zasoby_start" http="true" />
+	<export function="zasoby_stop" http="true" />
+	<export function="zasoby_restart" http="true" />
+	<export function="zasoby_status" http="true" />
+
+	<export function="gracze_wiadomosc" http="true" />
+	<export function="gracze_pobierz" http="true" />
+	
+</meta>

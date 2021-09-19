@@ -1,0 +1,54 @@
+﻿*{margin:0;padding:0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body{background-color:transparent;}
+
+body>div{
+	float:left;
+}
+.przeniesDoEkwipunek{
+	height:540px;
+	width:4%;
+	display: inline-block;
+	font-size:24px;
+	font-weight: bold;
+	padding:4px;
+	margin:2px 5px 5px 2px;
+	background-color:Chartreuse;
+	vertical-align: middle;
+	border-radius:10px;
+}
+.przeniesDoLoot{
+	height:540px;
+	width:4%;
+	display: inline-block;
+	font-size:24px;
+	font-weight: bold;
+	padding:4px;
+	margin:2px 5px 5px 2px;
+	background-color:Chartreuse;
+	vertical-align: middle;
+	border-radius:10px;
+}
+
+.strzalki{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 135px;
+}
+
+.loot{
+	background-color:grey;
+	height:540px;
+	width:40%;
+}
+.ekwipunek{
+	background-color:grey;
+	height:540px;
+	width:40%;
+}

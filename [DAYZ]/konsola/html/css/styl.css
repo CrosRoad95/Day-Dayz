@@ -1,0 +1,31 @@
+﻿*{margin:0;padding:0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body{background-color:transparent;}
+
+.konsola{
+	overflow-y: auto;
+	background-color:black;
+	color:white;
+	height:350px;
+	width:96%;
+	margin-left:2%;
+	padding:5px;
+	border:1px solid white;
+}
+.cmd{
+	overflow-x: auto;
+	background-color:black;
+	color:white;
+	height:20px;
+	width:96%;
+	margin-left:2%;
+	padding:5px;
+	border:1px solid white;
+	font-size:16px;
+}

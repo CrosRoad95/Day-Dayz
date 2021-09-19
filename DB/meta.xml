@@ -1,0 +1,13 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+
+    <script src="sql.lua" type="server" />
+    <export function="zapytanie" type="server" />
+    <export function="pobierzWyniki" type="server" />
+    <export function="pobierzTabeleWynikow" type="server" />
+    <export function="getSQLLink" type="server" />
+    <export function="data" type="server" />
+    <export function="now" type="server" />
+    
+    <min_mta_version server="1.3.4-0.00000"></min_mta_version>
+</meta>

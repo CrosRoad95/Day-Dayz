@@ -1,0 +1,13 @@
+<meta>
+		<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+	<script src="s.lua" type="server"></script>
+	<script src="c.lua" type="client" cache="false"></script>
+	<file src="html/index.html"></file>
+	<file src="html/css/styl.css"></file>
+	<file src="html/css/jquery-ui.css"></file>
+	
+	<file src="html/js/skrypt.js"></file>
+	<file src="html/js/jquery-1.10.2.js"></file>
+	<file src="html/js/jquery-ui.js"></file>
+	
+</meta>

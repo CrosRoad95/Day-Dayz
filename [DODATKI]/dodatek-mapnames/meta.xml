@@ -1,0 +1,5 @@
+<meta>
+	<info name="Map nametags" author="Gamesnert" type="script" version="0.9.0" description="This resource puts nametags on the F11 map near blips attached to players"/>
+	
+	<script src="mapnames_c.lua" type="client"/>
+</meta>

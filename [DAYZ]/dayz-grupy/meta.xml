@@ -1,0 +1,9 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" description="Skrypt stworzony dla serwera DayDayz przez Sebastian Jura 'CrosRoad95'. Kontakt discord: CrosRoad95#6984" type="script"></info>
+
+	<script src="c.lua" type="client" cache="false" />
+	<script src="s.lua" type="server" />
+	<export function="aktualizujGracza" type="server" />
+	<export function="aktualizujDaneGracza" type="server" />
+	
+</meta>
